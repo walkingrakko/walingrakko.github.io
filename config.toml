@@ -1,0 +1,45 @@
+abaseURL = "https://walkingrakko.github.io/"
+languageCode = "en-us"
+title = "walkingrakko"
+theme = "sourgough-starter"
+relativeURLs = true
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[params]
+#------------- Config -------------------
+    scholarLink = true
+    scopusLink = true
+    dimensionsLink = true
+    dimensionCitations = true
+    backgroundPath ="images/rakko_dodaitos.png"
+    footerOffset = -10
+
+#-------------- Defined ------------
+    css= ["css/sourgough.css"]
+[menu]
+#----- Navbar links ------
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "https://potato-park.hatenablog.jp/"
+
+  [[menu.main]]
+    identifier = "twitter.com"
+    name = "twitter"
+    url = "https://twitter.com/walkingrakko"
+
+  [[menu.main]]
+    identifier = "booklog"
+    name = "booklog"
+    url = "https://booklog.jp/users/c0f9404096534df8"
+
+  [[menu.main]]
+    identifier = "filmarks"
+    name = "filmarks"
+    url = "https://filmarks.com/users/enesorek"
+
+#----------- Text Links -------
+[taxonomies]
+  authors = "authors"
